@@ -1,5 +1,7 @@
+import os
+
 CSRF_ENABLED = True
-SECRET_KEY = 'com.buaa.plask'
+SECRET_KEY = os.urandom(32)
 
 import os
 
